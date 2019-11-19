@@ -9,7 +9,7 @@ module.exports = {
     },
     host: '0.0.0.0',
     port: "8080",
-    dest: ".vuepress/dist", //构建目录
+    base: "/gitBlog/",
     contentLoading: true, //是否对异步加载页面的内容开启占位符加载。如果它是一个字符串，那么它应该是自定义加载组件的名称。
     themeConfig: {
         logo: '/test.jpg',
